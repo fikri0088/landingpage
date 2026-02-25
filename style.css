@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  color: #94a3b8;
+  max-width: 600px;
+  margin: auto;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: #020617;
+  padding: 32px;
+  border-radius: 16px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #94a3b8;
+  margin-bottom: 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  background: #334155;
+  color: white;
+}
+
+.btn:hover {
+  background: #475569;
+}
+
+.primary {
+  background: #22c55e;
+  color: #022c22;
+}
+
+.value ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.value li {
+  margin-bottom: 12px;
+}
+
+footer {
+  padding: 24px;
+  background: #020617;
+  font-size: 14px;
+  color: #64748b;
+}
